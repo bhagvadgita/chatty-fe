@@ -3,7 +3,7 @@ import { useAuthStore } from "../store/useAuthStore";
 import { Camera, Mail, User } from "lucide-react";
 import { useParams } from "react-router-dom";
 
-const API_URL = "http://localhost:5001/api/auth/user/";
+const API_URL = "https://chatty-be-mjiw.onrender.com/api/auth/user/";
 
 const ProfilePage = () => {
   const { authUser, isUpdatingProfile, updateProfile } = useAuthStore();

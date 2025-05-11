@@ -5,7 +5,7 @@ import { useChatStore } from "../store/useChatStore";
 import { Share2, ThumbsUp, Bot, MessageCircle } from "lucide-react";
 import toast from "react-hot-toast";
 
-const API_URL = "http://localhost:5001/api/blogs";
+const API_URL = "https://chatty-be-mjiw.onrender.com/api/blogs";
 
 const BlogPage = () => {
   const { authUser } = useAuthStore();
