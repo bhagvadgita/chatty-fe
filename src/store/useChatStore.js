@@ -57,7 +57,7 @@ export const useChatStore = create((set, get) => ({
         const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
           method: "POST",
           headers: {
-            "Authorization": "Bearer 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",
+            "Authorization": "",
             "Content-Type": "application/json"
           },
           body: JSON.stringify({
